@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T05:56:18.329Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jblZMis-fs6Rf2JU8OFp" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T06:00:13.582Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="javMRAuuUtTw2qOVHhgK" version="20.0.4" type="github">
   <diagram id="xFMTAUmhkkEY8uQl3muQ" name="Page-1">
     <mxGraphModel dx="1234" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1I16HpEK6TIGJammznLg-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="50" width="650" height="270" as="geometry" />
+          <mxGeometry x="90" y="50" width="650" height="250" as="geometry" />
         </mxCell>
         <mxCell id="1I16HpEK6TIGJammznLg-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="60" width="20" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1I16HpEK6TIGJammznLg-15" value="Customer Tenant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="50" width="120" height="30" as="geometry" />
+          <mxGeometry x="600" y="260" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1I16HpEK6TIGJammznLg-32" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="290" y="80" width="220" height="190" as="geometry" />
@@ -40,6 +40,14 @@
         <mxCell id="1I16HpEK6TIGJammznLg-28" value="FLP Notification Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1I16HpEK6TIGJammznLg-32">
           <mxGeometry x="20" y="150" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="1I16HpEK6TIGJammznLg-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;startArrow=none;startFill=0;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="1I16HpEK6TIGJammznLg-33" target="1I16HpEK6TIGJammznLg-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="70" />
+              <mxPoint x="640" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1I16HpEK6TIGJammznLg-33" value="App Router" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="130" y="110" width="120" height="60" as="geometry" />
         </mxCell>
@@ -67,8 +75,17 @@
         <mxCell id="1I16HpEK6TIGJammznLg-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="550" y="100" width="170" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="1I16HpEK6TIGJammznLg-49" value="Tomee runtime" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="1I16HpEK6TIGJammznLg-49" value="SJP - Tomee runtime" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="590" y="110" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1I16HpEK6TIGJammznLg-50" value="ODATA Service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1I16HpEK6TIGJammznLg-52" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=10;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1I16HpEK6TIGJammznLg-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="360" width="665" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
