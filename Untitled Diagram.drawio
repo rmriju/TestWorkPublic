@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T05:50:12.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="qxJAEvwOk68TaDyc84Oq" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T05:56:18.329Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jblZMis-fs6Rf2JU8OFp" version="20.0.4" type="github">
   <diagram id="xFMTAUmhkkEY8uQl3muQ" name="Page-1">
-    <mxGraphModel dx="1234" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1I16HpEK6TIGJammznLg-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="50" width="550" height="270" as="geometry" />
+          <mxGeometry x="90" y="50" width="650" height="270" as="geometry" />
         </mxCell>
         <mxCell id="1I16HpEK6TIGJammznLg-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="60" width="20" height="40" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry x="490" y="50" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1I16HpEK6TIGJammznLg-32" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="290" y="100" width="220" height="190" as="geometry" />
+          <mxGeometry x="290" y="80" width="220" height="190" as="geometry" />
         </mxCell>
         <mxCell id="1I16HpEK6TIGJammznLg-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1I16HpEK6TIGJammznLg-32">
           <mxGeometry width="200" height="190" as="geometry" />
@@ -40,19 +40,35 @@
         <mxCell id="1I16HpEK6TIGJammznLg-28" value="FLP Notification Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1I16HpEK6TIGJammznLg-32">
           <mxGeometry x="20" y="150" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1I16HpEK6TIGJammznLg-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1I16HpEK6TIGJammznLg-32" source="1I16HpEK6TIGJammznLg-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="62.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1I16HpEK6TIGJammznLg-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="1I16HpEK6TIGJammznLg-33" target="1I16HpEK6TIGJammznLg-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="1I16HpEK6TIGJammznLg-33" value="App Router" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="130" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1I16HpEK6TIGJammznLg-34" value="XSUA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="130" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1I16HpEK6TIGJammznLg-40" value="" style="endArrow=blockThin;startArrow=blockThin;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=1;startFill=1;" edge="1" parent="1" source="1I16HpEK6TIGJammznLg-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="220" as="sourcePoint" />
+            <mxPoint x="190" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1I16HpEK6TIGJammznLg-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="140" as="sourcePoint" />
+            <mxPoint x="310" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1I16HpEK6TIGJammznLg-47" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1" target="1I16HpEK6TIGJammznLg-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="140" as="sourcePoint" />
+            <mxPoint x="320" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1I16HpEK6TIGJammznLg-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="550" y="100" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1I16HpEK6TIGJammznLg-49" value="Tomee runtime" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="590" y="110" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
